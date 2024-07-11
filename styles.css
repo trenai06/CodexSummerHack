@@ -15,7 +15,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .mainlogo{
@@ -147,7 +147,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .contact{
