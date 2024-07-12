@@ -3,23 +3,30 @@
     margin:0;
 }
 
+
+.change{
+    display: flex;
+    list-style-type: none;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
 .calendar{
     display:flex;
-    flex-direction: row;
+    width: 1300px;
     flex-wrap: wrap;
     justify-content: center;    
 }
 
+
 .day{
-    border:solid 2px black;
-    display:flex;
-    flex-direction: column;
+    border:solid 1px black;
+   display: flex;
     height:175px;
     width:175px;
    justify-content: center;
    align-items: center;
 }
-
 
 .date{
     height:175px;

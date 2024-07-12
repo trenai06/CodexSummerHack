@@ -1,0 +1,30 @@
+.story{
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+}
+.about{
+    display: flex;
+    font-size: 30px;
+    border:solid 2px black;
+    height: 500px;
+    width: 550px;
+    padding: 50px;
+    align-items: center;
+    border-radius: 0 180px  0 180px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.image{
+    height: 500px;
+    width: 450px;
+    border: solid black 10px;
+    border-radius: 50px;
+}
+
+.storelogo{
+    border:none;
+}
