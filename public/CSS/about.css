@@ -1,0 +1,25 @@
+.story{
+    display: flex;
+    justify-content: space-between;
+    width:100vw;
+}
+.about{
+    display: flex;
+    font-size: 25px;
+    height: 400px;
+    width: 500px;
+    padding: 75px;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.image{
+    height: 450px;
+    width: 450px;
+    border: solid black 10px;
+    border-radius: 360px;
+}

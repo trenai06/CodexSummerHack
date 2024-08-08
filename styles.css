@@ -12,7 +12,8 @@ body{
     font-family: "Schoolbell", cursive;
     font-weight: 400;
     font-style: normal;
-    /* background-color: aquamarine; */
+    background-color:rgb(55, 54, 54);
+    color:white;
 }
 
 nav{
@@ -20,17 +21,24 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* border: solid 2px black; */
+    height: 70px;
+    background-color:rgb(164, 162, 162);
+    box-shadow: 5px 5px rgba(7, 7, 7, 0.768);
+    width: 100vw;
+}
+
+a:link, a:visited{
+    color:white;
 }
 
 .mainlogo{
-    height:145px;
-    width: 175px;
+    height: 75px;
+    width: 110px;
 }
 
 .logo{
-    height:40px;
-    width:40px;
+    height:30px;
+    width:30px;
 }
 
 .divlogo{
@@ -58,27 +66,37 @@ td,th{
 
 
 tr{
-    height:100px;  
+    height:75px;  
 }
 
 td,th{
-width:200px;
+width:100px;
 } 
 
 .schedule{
     display:flex;
     flex-direction: column;
-    width: 700px;
+    width: 500px;
+    color: black;
     justify-content: center;
-    justify-content: space-around;
+    row-gap: 10px;
     text-align: center;
     padding: 30px;
-    /* background-color: blue; */
+    font-size: 15px;
+    border-radius: 100px;
+    background-color: #17b4b1;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.458);
 }
 
+.playtime{
+    background-color:#b64992 ;
+}
 .gallery{
     display:flex;
-    width:100vw;
+    width:90vw;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #0cdcda, #4b6ada, #b64992);
+    /* box-shadow:10px 10px#4b6ada ; */
 }
 
 .panel{
@@ -110,32 +128,29 @@ width:200px;
 }
 
 .card-one {
-    background-image:url(./Assets/menu.jpg);
+    background-image:url(./public/Assets/menu.jpg);
 }
 
 .card-two{
-    background-image:url(./Assets/woman.jpg);
+    background-image:url(./public/Assets/woman.jpg);
 }
 
 .card-three{
-    background-image: url(./Assets/girl.jpg);
+    background-image: url(./public/Assets/girl.jpg);
 }
 
 .card-four{
-    background-image: url(./Assets/image.jpg);
+    background-image: url(./public/Assets/image.jpg);
 }
 
 .card-five{
-    background-image: url(./Assets/drink.jpg);
+    background-image: url(./public/Assets/drink.jpg);
 }
 
 .card-six{
-    background-image: url(./Assets/friday.jpg);
+    background-image: url(./public/Assets/friday.jpg);
 }
 
-.card-seven{
-    background-image: url(./Assets/people.jpg);
-}
 
 .featured{
     display:flex;
@@ -143,8 +158,8 @@ width:200px;
     align-items: center;
     width: 950px;
     gap:10px;
-    /* border: solid 2px black; */
 }
+
 .game{
     height:200px;
     width:300px;
@@ -170,6 +185,7 @@ footer{
     padding-bottom: 50%;
     margin-bottom: 30px;
     position: relative;
+
 }
 
 .google-map iframe {

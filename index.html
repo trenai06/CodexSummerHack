@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet"/>
@@ -14,26 +14,28 @@
     <nav>
       <div>
         <a href="https://www.sipnplaynyc.com/">
-            <img class="mainlogo" src="./Assets/sipnplay.png" alt="Sip n Playt logo"/>
+            <img class="mainlogo" src="./public/Assets/logo.jpg" alt="Sip n Playt logo"/>
         </a>
       </div>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><img class="divlogo" src="./Assets/die.png" /></li>
-        <li><a href="./HTML/about.html">About</a></li>
-        <li><img class="divlogo" src="./Assets/die.png" /></li>
-        <li><a href="./HTML/res.html">Reservations</a></li>
-        <li><img class="divlogo" src="./Assets/die.png" /></li>
-        <li><a href="./HTML/events.html">Events</a></li>
-        <li><img class="divlogo" src="./Assets/die.png" /></li>
-        <li><a href="./HTML/menu.html">Menu</a></li>
+        <li><a href="/">Home</a></li>
+        <li><img class="divlogo" src="./public/Assets/die.png"/></li>
+        <li><a href="./public/HTML/about.html">About</a></li>
+        <li><img class="divlogo" src="../public/Assets/die.png" /></li>
+        <li><a href="./public/HTML/res.html">Reservations</a></li>
+        <li><img class="divlogo" src="./public/Assets/die.png" /></li>
+        <li><a href="./public/HTML/events.html">Events</a></li>
+        <li><img class="divlogo" src="./public/Assets/die.png" /></li>
+        <li><a href="./public/HTML/menu.html">Menu</a></li>
+        <li><img class="divlogo" src="./public/Assets/die.png"/></li>
+        <li><a href="./public/HTML/games.html">Games</a></li>
       </ul>
       <div class="socials">
         <a href="https://www.instagram.com/sipnplaynyc/"
-          ><img class="logo" src="./Assets/Insta.png" alt="Instagram Logo"
+          ><img class="logo" src="./public/Assets/Insta.png" alt="Instagram Logo"
         /></a>
         <a href="https://www.facebook.com/sipnplaynyc/"
-          ><img class="logo" src="./Assets/facebook.png" alt="Facebook Logo"
+          ><img class="logo" src="./public/Assets/facebook.png" alt="Facebook Logo"
         /></a>
       </div>
     </nav>
@@ -53,7 +55,7 @@
           <td>10a - Midnight</td>
         </tr>
       </table>
-      * Kitchen closes 2 - 3 hours before we close!
+      <p>* Kitchen closes 2 - 3 hours before we close!</p>
     </div>
 
     <div class="featured">
@@ -61,12 +63,12 @@
       <h3>Come and try Disney's hottest, new trading card game!</h3>
       <h3>We're hosting a Lorcana learn to play event on July 22nd 6pm!</h3>
       <div>
-        <img class="game" src="./Assets/lorcana.jpg" />
-        <img class="game" src="./Assets/lorcana3.avif" />
+        <img class="game" src="./public/Assets/lorcana.jpg"/>
+        <img class="game" src="./public/Assets/lorcana3.avif"/>
       </div>
       <div>
-        <img class="game" src="./Assets/lorcana4.jpg" />
-        <img class="game" src="./Assets/lorcana2.webp" />
+        <img class="game" src="./public/Assets/lorcana4.jpg"/>
+        <img class="game" src="./public/Assets/lorcana2.webp"/>
       </div>
       <p>
         "The realm of Lorcana is made up of vast regions called the Inklands,
@@ -86,12 +88,12 @@
         collection of over 500+ games! Just $10 a person for 3 hours of
         gameplay. ($12 a person Friday-Sunday and Holidays) Play while enjoying
         one (or more!) of our delicious
-        <a href="./HTML/menu.html">menu</a> offerings! If you want to guarantee
+        <a href="./public/HTML/menu.html">menu</a> offerings! If you want to guarantee
         a table, you can make a reservation which is $15 a person for 3 hours of
         gameplay.
       </p>
       <p>
-        <a href="./HTML/res.html">Reservations</a> are open for any party size!
+        <a href="./public/HTML/res.html">Reservations</a> are open for any party size!
         For large parties (9+ or more people), please email us at
         sipnplaynyc@gmail.com to inquire about a reservation.
       </p>
@@ -104,15 +106,14 @@
       <div class="panel card-four"></div>
       <div class="panel card-five"></div>
       <div class="panel card-six"></div>
-      <div class="panel card-seven"></div>
     </div>
 
     <footer>
       <div class="googlemap">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.265051116658!2d-73.9895256884809!3d40.668128571280974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b963c296a77%3A0x33cab105836ef465!2sSip%20%26%20Play!5e0!3m2!1sen!2sus!4v1720737454154!5m2!1sen!2sus"
-          width="1000"
-          height="450"
+           width="500"
+          height="250" 
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -127,5 +128,5 @@
       </div>
     </footer>
   </body>
-  <script src="script.js"></script>
+  <script src="./public/JS/script.js"></script>
 </html>

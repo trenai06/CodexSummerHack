@@ -1,7 +1,7 @@
 body{
-   
    text-align: center;
 }
+
 .reserve{
     height: 100px;
     width: 200px;
@@ -10,6 +10,7 @@ body{
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
+    background-color: darkgray;
 }
 
 .res, .occasion{
@@ -29,17 +30,17 @@ body{
     font-size: 25px;
     text-align: center;
     align-items: center;
-justify-content: space-evenly;    
-width:500px;
-    
+    justify-content: space-evenly;    
+    width:500px;    
 }
 
-
-
+.image{
+    border-radius: 300px;
+    border:solid 10px black;
+}
 
 .occasion{
     display: flex;
-
 }
 
 .special{
